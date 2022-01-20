@@ -33,7 +33,7 @@ describe('components/GraphMeta.vue', () => {
         });
 
         it('displays the empty state message', () => {
-            expect(wrapper.findComponent(BCardText).text()).toContain('threatmodel.properties.emptyState');
+            expect(wrapper.findComponent(BCardText).text()).toContain('threats.emptyState');
         });
     });
 

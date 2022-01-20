@@ -158,6 +158,7 @@ const en = {
         discardMessage: 'Are you sure you want to discard your changes?'
     },
     threats: {
+        emptyState: 'Select an element on the graph to add a threat',
         models: {
             confidentiality: 'Confidentiality',
             integrity: 'Integrity',
@@ -180,6 +181,8 @@ const en = {
         confirmDeleteTitle: 'Confirm Delete',
         confirmDeleteMessage: 'Are you sure you really want to delete this threat?',
         newThreat: 'New Threat',
+        newThreatByType: 'By type',
+        newThreatByContext: 'By context',
         properties: {
             title: 'Title',
             status: 'Status',
